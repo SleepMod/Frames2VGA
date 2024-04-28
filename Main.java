@@ -26,6 +26,7 @@ public class Main extends vga13 {
 
         if (maximumBytes <= 8192) {
             System.out.println("Defaulted 64000, reason, inputted less than 8192");
+            maximumBytes = 64000;
         }
 
         System.out.print("New width (Set 0 for auto): ");
